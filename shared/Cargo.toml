@@ -1,0 +1,11 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+target = "src/lib.rs"
+
+[dependencies]
+chrono = "0.4.41"
+uuid = { version = "1.17.0", features = ["v4"] }
